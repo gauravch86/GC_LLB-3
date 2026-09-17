@@ -318,7 +318,7 @@
       <h2 class="section-title">Landmark cases / statutes</h2>
       <div class="cases">${cases}</div>
       <h2 class="section-title">CCS-style questions (public themes)</h2>
-      <p class="note">Worded from public PYQ themes (blogs/indexes). Unique/Nitin and primary textbooks are not reproduced. Write your own English; confirm the year’s paper with college. Stub cards will deepen without copying those books.</p>
+      <p class="note">Worded from public PYQ themes (blogs/indexes). Unique/Nitin and primary textbooks are not reproduced. Write your own English; confirm the year’s paper with college. Cites flagged VERIFY need a judgment PDF or India Code check before the hall.</p>
       ${pyqs}
       <h2 class="section-title">Seal checklist</h2>
       <ul class="check-list">${checks}</ul>
@@ -349,7 +349,7 @@
     return `<section class="hero" id="topic-dash" data-jump="dash">
       <p class="kicker">Bhawana Chaudahry · HLM College, Ghaziabad</p>
       <h2>Five Sem-3 papers, one study bench</h2>
-      <p class="lede">CCS University Meerut LL.B. 3-year <strong>Semester 3</strong>. Target window: December 2026. Shell + syllabus stubs first; full explainers land later. <strong>K-3005 practical Project File</strong> is a separate print pack — this tab is theory/accountability doctrine only. Track new content in <button type="button" class="text-link" data-nav="logbook">Logbook</button>.</p>
+      <p class="lede">CCS University Meerut LL.B. 3-year <strong>Semester 3</strong>. Target window: December 2026. Original exam-ready explainers for all five papers. <strong>K-3005 practical Project File</strong> is a separate print pack — this tab is theory/accountability doctrine only. Track new content in <button type="button" class="text-link" data-nav="logbook">Logbook</button>.</p>
       <div class="stat-row">
         <div class="stat"><b>${days}</b>days to Dec 2026 window</div>
         <div class="stat"><b>${n}/${t}</b>topics sealed</div>
@@ -364,25 +364,25 @@
     <section class="panel">
       <h2 class="display">How to use this bench</h2>
       <ol>
-        <li>Open a topic → read the teaser → open the matching bare Act / textbook chapter.</li>
-        <li>Redraw the stub diagram from memory; replace the mnemonic with your own after one pass.</li>
-        <li>Attempt a timed outline (20-marker ≈ 25–30 min) from the PYQ placeholder spine.</li>
+        <li>Open a topic → read the explainer → confirm every section on India Code / the CCS primary book.</li>
+        <li>Redraw the diagram from memory; replace the mnemonic with your own after one pass.</li>
+        <li>Attempt a timed outline (20-marker ≈ 25–30 min) from the CCS-style question spine.</li>
         <li>Hit <strong>Seal this topic</strong> only when you can do that without scrolling.</li>
         <li>Use Unique/Nitin only as a <em>question-shape drill after</em> bare act + textbook + this site.</li>
-        <li>For <strong>K-3005</strong>, keep the college Project File / viva pack offline — do not wait for this shell to become the practical file.</li>
+        <li>For <strong>K-3005</strong>, keep the college Project File / viva pack offline — these cards are doctrine, not the practical file.</li>
       </ol>
     </section>
     <section class="panel">
       <h2 class="display">Primary shelf (buy / use)</h2>
       <ol>
-        <li>K-3001 — Muslim Law text on the CCS / HLM list + DMMA, MWA, CrPC 125 bare chapters</li>
-        <li>K-3002 — Public International Law text + UN Charter / ICJ Statute extracts</li>
-        <li>K-3003 — Administrative Law text + Constitution Arts. 32 / 226 / 323A–B</li>
-        <li>K-3004 — Transfer of Property Act + Indian Easements Act bare + college Property commentary</li>
-        <li>K-3005 — Advocates Act / BCI rules + Contempt of Courts Act + practical-training print pack</li>
+        <li>K-3001 — Mulla + Fyzee (Aqil Ahmad / Tahir Mahmood overlay) + DMMA, MWPRDA, Shariat Act, Family Courts Act</li>
+        <li>K-3002 — Starke / S.K. Kapoor / H.O. Aggarwal + UN Charter / ICJ Statute Art. 38 / UNCLOS zone extracts</li>
+        <li>K-3003 — Massey + Takwani + Constitution Arts. 14, 21, 32, 226, 136, 323A–B</li>
+        <li>K-3004 — Mulla TPA + college TPA text (Shukla / Tripathi class) + TPA &amp; Easements Act bare</li>
+        <li>K-3005 — Kailash Rai / Gupta / Sirohi for structure + Advocates Act, BCI Rules, Contempt Act + practical-training print pack</li>
       </ol>
-      <aside class="note"><h3>Shell status</h3>
-        <p>Every syllabus heading is in the sidebar as a <strong>stub card</strong> (teaser + placeholder concept/diagram/mnemonic/PYQ). Full original explainers will replace stubs without Unique/Nitin prose.</p>
+      <aside class="note"><h3>Content status</h3>
+        <p>Every syllabus heading now has an original explainer, diagram, mnemonic, case hooks, and CCS-style outline. Unique/Nitin remains drill-only. Items marked <strong>VERIFY</strong> need a judgment PDF or India Code check before you treat the cite as gospel in the hall.</p>
       </aside>
     </section>
     <section class="panel" id="topic-countdown" data-jump="countdown">
@@ -401,7 +401,7 @@
     </section>
     <section class="panel" id="topic-coverage" data-jump="coverage">
       <h2 class="display">Official CCS Sem-3 map (shell coverage)</h2>
-      <p>Checked against CCS LL.B. Semester-3 paper codes <strong>K-3001–K-3005</strong>. Every listed heading has a sidebar stub. Mid-grain PYQ cards will arrive in later passes.</p>
+      <p>Checked against CCS LL.B. Semester-3 paper codes <strong>K-3001–K-3005</strong>. Every listed heading has a full original card (wave 1). Recalibrate PYQ years against college papers when you get them.</p>
       <table class="compare">
         <thead><tr><th>Paper</th><th>Syllabus headings on this site</th><th>Stub count</th></tr></thead>
         <tbody>
