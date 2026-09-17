@@ -5,9 +5,9 @@
   global.LLB.pages = {
     strategy() {
       return `<article class="topic" id="topic-method" data-jump="method">
-        <p class="kicker">Sem-3 · method stubs</p>
+        <p class="kicker">Sem-3 · method</p>
         <h1>Exam strategy for Semester-3</h1>
-        <p class="lede">CCS long answers still reward named sections, named cases, and a visible structure. Sem-3 adds personal-law statutes, UNCLOS diagrams, administrative-law control matrices, TPA section ladders, and professional-ethics problem facts — treat each 20-marker as a spec: definition, essentials, authorities, distinction, close.</p>
+        <p class="lede">CCS long answers still reward named sections, named cases, and a visible structure. Sem-3 adds personal-law statutes, UNCLOS diagrams, administrative-law control matrices, TPA section ladders, and professional-ethics problem facts — treat each 20-marker as a spec: definition, essentials, authorities, distinction, close. Wave-1 cards are original teaching prose on the official CCS book spine; Unique/Nitin is still drill only.</p>
         <h2 class="section-title">Weekly OS (repeat until December)</h2>
         ${window.LLBDiagrams.render({ type: "flow", steps: ["Muslim Law spine", "PIL sources + Sea", "Admin NJ + DL", "TPA mortgages", "Ethics + contempt", "Timed PYQ"] })}
         <table class="compare">
@@ -58,17 +58,17 @@
       return `<article class="topic" id="topic-publishers" data-jump="publishers">
         <p class="kicker">Bhawana’s shelf · then Unique drill · then extras</p>
         <h1>Primary textbooks, exam drill, secondary refs</h1>
-        <p class="lede">Confirm the exact editions on the <strong>CCS / HLM recommended list</strong> for your batch. This site tracks syllabus headings with original stub teasers — it does not reproduce Unique/Nitin or textbook prose. Track new content in <button type="button" class="text-link" data-nav="logbook">Logbook</button>.</p>
+        <p class="lede">Spine = official CCS recommended books (syllabus PDF w.e.f. 2017–18, CDN Aug 2025) plus bare Acts. Confirm the exact edition on the <strong>HLM list</strong> for your batch. Site prose is original — it does not reproduce Unique/Nitin or textbook paragraphs. Track new content in <button type="button" class="text-link" data-nav="logbook">Logbook</button>.</p>
 
-        <h2 class="section-title">1. Primary textbooks (buy / use — verify college list)</h2>
+        <h2 class="section-title">1. Official CCS books → teaching spine (buy / use)</h2>
         <table class="compare">
-          <thead><tr><th>Paper</th><th>Typical CCS / college shelf</th><th>How this site tracks it</th></tr></thead>
+          <thead><tr><th>Paper</th><th>Official CCS recommended books</th><th>Spine this site writes from</th><th>How the cards track it</th></tr></thead>
           <tbody>
-            <tr><td>K-3001</td><td>Muslim Law commentary on the HLM list (often Aquil/Aqil Ahmad or equivalent) + statutory overlays</td><td>Intro → sources → schools → applicability → marriage → mahr → divorce/talaq → Shah Bano cluster → wills → gifts → wakf → pre-emption → acknowledgement &amp; guardianship</td></tr>
-            <tr><td>K-3002</td><td>Public International Law text on the CCS list (e.g. S.K. Kapoor / M.P. Tandon class of books)</td><td>Theory → sources → municipal law → State topics → war/disputes &amp; special notes → Law of the Sea</td></tr>
-            <tr><td>K-3003</td><td>Administrative Law text (e.g. C.K. Takwani / I.P. Massey class of books)</td><td>Intro → Rule of Law → SOP → delegated legislation → natural justice → writs → PIL → Lokpal/Lokayukta → tribunals/CAT</td></tr>
-            <tr><td>K-3004</td><td>Transfer of Property commentary + Easements Act (e.g. R.K. Sinha / G.P. Tripathi class of books)</td><td>TPA section blocks 1–4 → 5–53A → sale → mortgages → leases → exchange → gifts → actionable claims → easements overview</td></tr>
-            <tr><td>K-3005</td><td>Professional Ethics / Advocates Act materials + Contempt Act + BCI conduct rules; <strong>Project File separate</strong></td><td>History → enrolment/Bar Councils → nature of ethics → contempt → strike → professionalization</td></tr>
+            <tr><td>K-3001 Family Law–II</td><td>Aqeel Ahmad; Ameer Ali; Fyzee; Tahir Mahmood; Mulla; Khalid Rashid; Wilson. Central Acts listed in the syllabus: DMMA 1939; Family Courts Act 1984; Shariat Application Act 1937; Muslim Women (Protection of Rights on Divorce) Act 1986.</td><td><strong>Mulla</strong> (Indian digest) + <strong>Fyzee</strong> (concepts) + Aqil Ahmad-style college text; Tahir Mahmood for reform/statutes. 2019 triple-talaq statute and BNSS successor of CrPC 125 are flagged as later overlays (VERIFY section numbers).</td><td>Intro → sources → schools → applicability → nikah → mahr → talaq → Shah Bano/DMMA/MWA cluster → wasiyat → hiba → wakf → shufa → acknowledgement &amp; guardianship</td></tr>
+            <tr><td>K-3002 PIL</td><td>H.O. Aggarwal; Greig; Harris; S.K. Kapoor; Starke.</td><td><strong>Starke</strong> / <strong>S.K. Kapoor</strong> student texts + <strong>H.O. Aggarwal</strong>; Harris for case extracts. Instruments: UN Charter, ICJ Statute Art. 38, VCLT themes, UNCLOS zones.</td><td>Theory → Art. 38 sources → IL &amp; municipal law → sovereignty/territory → recognition/succession → intervention → nationality → diplomats → extradition → asylum → war/disputes → special cluster → Law of the Sea</td></tr>
+            <tr><td>K-3003 Admin Law</td><td>Basu; Jain &amp; Jain; Joshi; I.P. Massey; Sathe; C.K. Takwani; Thakkar; Wade.</td><td><strong>Massey</strong> + <strong>Takwani</strong>. Constitution Arts. 14, 21, 32, 226, 136, 323A–B; CAT statute; Lokpal Act 2013 + UP Lokayukta statute (VERIFY amendments).</td><td>Evolution/scope → Rule of Law → SOP → delegated legislation → natural justice → HMPCQ writs → PIL → Lokpal/UP Lokayukta → tribunals/CAT</td></tr>
+            <tr><td>K-3004 Property &amp; Easement</td><td>Paras Diwan; Lahri; Mulla TPA; Shah; S.N. Shukla; V.N. Shukla; Sinha; G.P. Tripathi.</td><td><strong>Mulla, Transfer of Property Act</strong> + college TPA text (Shukla / Tripathi class). Bare: TPA 1882; Indian Easements Act 1882.</td><td>Ss. 1–4 → 5–53A → sale → mortgages &amp; charges → leases → exchange → gifts → actionable claims → Easements Act overview</td></tr>
+            <tr><td>K-3005 Prof. Ethics (practical)</td><td>S.P. Gupta; Kailash Rai; Sirohi (Dr.).</td><td><strong>Kailash Rai / Gupta / Sirohi for chapter map only</strong> + Advocates Act 1961 + BCI Rules Parts VI–VII + Contempt of Courts Act 1971. Project File / viva pack is <strong>separate print work</strong>.</td><td>History &amp; regulation → enrolment/Bar Councils → nature of ethics → contempt (civil/criminal, defences, validity, status-specific) → lawyers’ strike → professionalization (code, misconduct, bar–bench, accountability, social role)</td></tr>
           </tbody>
         </table>
 
@@ -89,11 +89,11 @@
         <table class="compare">
           <thead><tr><th>Paper</th><th>Secondary (do not replace the primary shelf)</th></tr></thead>
           <tbody>
-            <tr><td>K-3001</td><td>Fyzee; Mulla (Muslim Law); statutory commentaries on DMMA / MWA</td></tr>
-            <tr><td>K-3002</td><td>Oppenheim extracts; Shaw; Starke; UNCLOS handbook summaries</td></tr>
-            <tr><td>K-3003</td><td>Jain &amp; Jain; Wade &amp; Forsyth (library); Sathe</td></tr>
-            <tr><td>K-3004</td><td>Mulla TPA; Shah; Digby / classic easement notes</td></tr>
-            <tr><td>K-3005</td><td>Selected BCI opinions; Contempt of Courts Act commentary; Krishnaswami Aiyar ethics classics (library)</td></tr>
+            <tr><td>K-3001</td><td>Ameer Ali; Khalid Rashid; Wilson (on the official list but secondary to Mulla/Fyzee for this site); statutory commentaries on DMMA / MWA / 2019 Act</td></tr>
+            <tr><td>K-3002</td><td>Greig; Harris cases; Oppenheim extracts; Shaw; UNCLOS handbook summaries</td></tr>
+            <tr><td>K-3003</td><td>Jain &amp; Jain; Sathe; Wade (library); Basu comparative notes</td></tr>
+            <tr><td>K-3004</td><td>Shah; Paras Diwan; Sinha; classic easement notes — only after Mulla + the college TPA text</td></tr>
+            <tr><td>K-3005</td><td>Selected BCI opinions; Contempt of Courts Act commentary; Krishnaswami Aiyar ethics classics (library). Not a substitute for India Code + BCI Rules PDF</td></tr>
           </tbody>
         </table>
       </article>
@@ -114,7 +114,7 @@
         <p class="kicker">Resources · bare acts</p>
         <h1>Bare acts &amp; public syllabus hooks</h1>
         <div class="pub-grid">
-          <div class="pub-card"><strong>Muslim Law statutes</strong><p>DMMA 1939; Muslim Women (Protection of Rights on Divorce) Act; CrPC 125 neighbourhood; Waqf framework. <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">indiacode.nic.in</a></p></div>
+          <div class="pub-card"><strong>Muslim Law statutes</strong><p>Shariat Act 1937; DMMA 1939; MWPRDA 1986; Family Courts Act 1984; Muslim Women (Protection of Rights on Marriage) Act 2019; Waqf framework (VERIFY current short title after later amendments); CrPC 125 / BNSS successor (VERIFY s. 144). <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">indiacode.nic.in</a></p></div>
           <div class="pub-card"><strong>PIL instruments</strong><p>UN Charter highlights; ICJ Statute Art. 38; UNCLOS zone articles (verify numbers before the hall).</p></div>
           <div class="pub-card"><strong>Admin + Constitution</strong><p>Arts. 32, 226, 136, 323A–323B; key tribunal / PIL cases from your primary book.</p></div>
           <div class="pub-card"><strong>TPA + Easements</strong><p>Transfer of Property Act 1882; Indian Easements Act 1882 — section ladders on the desk.</p></div>
@@ -131,7 +131,7 @@
         <p class="kicker">Resources · citation</p>
         <h1>How to cite this site</h1>
         <aside class="note"><h3>Copyright stance</h3>
-          <p>Original teaching material / stub teasers only. Cites publicly available statutes, the CCS syllabus outline, landmark case names, and publicly blogged exam <em>themes</em>. Does not copy Unique Law Series, Nitin Prakashan, or primary textbook prose, tables, or chapter text.</p>
+          <p>Original teaching explainers only. Cites publicly available statutes, the CCS syllabus outline, well-known case holdings, and publicly blogged exam <em>themes</em>. Does not copy Unique Law Series, Nitin Prakashan, or primary textbook prose, tables, or chapter text. Uncertain citations are marked VERIFY.</p>
         </aside>
       </article>`;
     }

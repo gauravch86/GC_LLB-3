@@ -1,34 +1,34 @@
 # LL.B. Semester-3 Study Bench
 
-Interactive study-site **shell** for **CCS University Meerut** LL.B. 3-year **Semester 3** (paper codes **K-3001–K-3005**). Built for **Bhawana Chaudahry**, **HLM College, Ghaziabad**, December **2026** exams.
+Interactive study site for **CCS University Meerut** LL.B. 3-year **Semester 3** (paper codes **K-3001–K-3005**). Built for **Bhawana Chaudahry**, **HLM College, Ghaziabad**, December **2026** exams.
 
-UX, fonts, dark/light theme, sticky nav, search, and seal meters follow the Sem-1 bench pattern ([gauravch86/LLB-I](https://github.com/gauravch86/LLB-I)). Content here is **new Sem-3 stubs only** — original 2–4 sentence teasers plus placeholder concept / diagram / mnemonic / PYQ sections. Topic cards are **syllabus stubs pending deep content**. Full chapter prose will land in later passes.
+UX, fonts, dark/light theme, sticky nav, search, and seal meters follow the Sem-1 bench pattern ([gauravch86/LLB-I](https://github.com/gauravch86/LLB-I)). Content here is **original Sem-3 teaching prose** synthesised from CCS syllabus headings, bare-act sections, and well-known case holdings. Unique Law Series / Nitin Prakashan is **exam-drill only** and is not copied. Uncertain citations are marked **VERIFY**.
 
 **GitHub Pages:** [https://gauravch86.github.io/GC_LLB-3/](https://gauravch86.github.io/GC_LLB-3/) (source: `main` branch, `/` root). Open `index.html` locally anytime.
 
 ## Papers
 
-| Code | Paper | Stub topics |
-|------|--------|-------------|
-| **K-3001** | Family Law–II (Muslim Law) | 13 |
-| **K-3002** | Public International Law | 13 |
-| **K-3003** | Administrative Law | 9 |
-| **K-3004** | Law of Property and Easement | 9 |
-| **K-3005** | Professional Ethics, Accountability of Lawyers and Bar–Bench Relation (Practical Training — **theory cards**; the practical **Project File is a separate print pack**) | 6 |
+| Code | Paper | Spine (official CCS books → what the cards write from) | Topics |
+|------|--------|------------------------------------------------------|--------|
+| **K-3001** | Family Law–II (Muslim Law) | **Mulla** + **Fyzee**; Aqil Ahmad / Tahir Mahmood overlay. Bare: Shariat Act 1937, DMMA 1939, MWPRDA 1986, Family Courts Act 1984 | 13 |
+| **K-3002** | Public International Law | **Starke** / **S.K. Kapoor** / **H.O. Aggarwal**; Harris for cases. UN Charter, ICJ Art. 38, UNCLOS zones | 13 |
+| **K-3003** | Administrative Law | **Massey** + **Takwani**. Arts. 14, 21, 32, 226, 136, 323A–B; CAT | 9 |
+| **K-3004** | Law of Property and Easement | **Mulla TPA** + college TPA text (Shukla / Tripathi class). Bare: TPA 1882; Easements Act 1882 | 9 |
+| **K-3005** | Professional Ethics, Accountability of Lawyers and Bar–Bench Relation (Practical Training — **theory cards**; the practical **Project File is a separate print pack**) | **Kailash Rai / S.P. Gupta / Sirohi** for structure + Advocates Act + BCI Rules + Contempt Act | 6 |
 
-Also included: **Overview** (dashboard + seal meters), **Logbook**, **Exam strategy**, and **Resources** (recommended books tables, Unique/Nitin = drill only, bare-act links).
+Also included: **Overview** (dashboard + seal meters), **Logbook**, **Exam strategy**, and **Resources** (official CCS shelf, Unique/Nitin = drill only, bare-act links).
 
-**50** sealable topic stubs. Progress uses `localStorage` keys prefixed **`llb3-`** (`llb3-progress-v1`, `llb3-theme`) so it never collides with Sem-1 `llb1-` keys.
+**50** sealable topics. Progress uses `localStorage` keys prefixed **`llb3-`** (`llb3-progress-v1`, `llb3-theme`) so it never collides with Sem-1 `llb1-` keys.
 
 ## How to study (topic → outline → seal)
 
 1. Pick a subject tab, then a syllabus topic in the sidebar.
-2. Read the **teaser**; open the matching bare Act / primary textbook chapter (this site does not copy those books).
-3. Redraw the stub **diagram**; replace the **mnemonic** with your own after one pass.
+2. Read the **explainer**; confirm every section on [India Code](https://www.indiacode.nic.in/) / the primary book (this site does not copy those books).
+3. Redraw the **diagram**; replace the **mnemonic** with your own after one pass.
 4. Attempt the **CCS-style outline** under time (20-marker ≈ 25–30 minutes).
 5. Tick **Seal this topic** only when you can do that without scrolling.
 
-Unique Law Series / Nitin Prakashan “30 Questions & Answers” is **exam-drill only**, used **after** the primary book + bare act + this site.
+Items marked **VERIFY** need a judgment PDF or the in-force Act text before you treat the cite as gospel in the hall.
 
 ## Run locally
 
@@ -63,7 +63,7 @@ This tree is published from **`main`** at **`/` (root)** for repo **[gauravch86/
 
 ## Copyright
 
-Original stub teasers and teaching chrome only. Cites publicly available statutes, the CCS syllabus outline, landmark case names, and public exam *themes*. Does **not** reproduce Unique/Nitin or primary textbook prose.
+Original teaching explainers and site chrome only. Cites publicly available statutes, the CCS syllabus outline, well-known case holdings, and public exam *themes*. Does **not** reproduce Unique/Nitin or primary textbook prose.
 
 ## File layout
 
