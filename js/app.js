@@ -403,7 +403,7 @@
       <h2 class="display">Official CCS Sem-3 map (shell coverage)</h2>
       <p>Checked against CCS LL.B. Semester-3 paper codes <strong>K-3001–K-3005</strong>. Every listed heading has a full original card (wave 1). Recalibrate PYQ years against college papers when you get them.</p>
       <table class="compare">
-        <thead><tr><th>Paper</th><th>Syllabus headings on this site</th><th>Stub count</th></tr></thead>
+        <thead><tr><th>Paper</th><th>Syllabus headings on this site</th><th>Topic cards</th></tr></thead>
         <tbody>
           <tr><td>K-3001</td><td>Intro; Sources; Schools; Applicability; Marriage; Mahr; Divorce/Talaq; DMMA/MWA/CrPC 125/Shah Bano; Wills; Gifts; Wakf; Pre-emption; Acknowledgement &amp; Guardianship</td><td>13</td></tr>
           <tr><td>K-3002</td><td>Theory; Sources; IL &amp; municipal; State (sovereignty/territory, recognition/succession, intervention, nationality, diplomats, extradition, asylum); War/disputes; Special cluster; Law of the Sea</td><td>13</td></tr>

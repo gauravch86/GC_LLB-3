@@ -5,7 +5,7 @@
   global.LLB.pages = {
     strategy() {
       return `<article class="topic" id="topic-method" data-jump="method">
-        <p class="kicker">Sem-3 · method stubs</p>
+        <p class="kicker">Sem-3 · method</p>
         <h1>Exam strategy for Semester-3</h1>
         <p class="lede">CCS long answers still reward named sections, named cases, and a visible structure. Sem-3 adds personal-law statutes, UNCLOS diagrams, administrative-law control matrices, TPA section ladders, and professional-ethics problem facts — treat each 20-marker as a spec: definition, essentials, authorities, distinction, close. Wave-1 cards are original teaching prose on the official CCS book spine; Unique/Nitin is still drill only.</p>
         <h2 class="section-title">Weekly OS (repeat until December)</h2>
